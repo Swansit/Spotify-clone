@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spotifystyle.css">
+    <link rel="stylesheet" href="spotifyutility.css">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/refs/heads/main/Video%2084%20-%20Project%202%20-%20Spotify%20Clone/favicon.ico"
+        type="image/png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="logo.svg" alt=""></div>
+                <ul>
+                    <li class="flex"><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li class="flex"><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading flex items-center">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h3>
+                        Your Library
+                    </h3>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer flex">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header flex">
+                <div class="nav">
+                    <div class="hamburger">
+                        <img src="hamburger.svg" alt="">
+                    </div>
+                    <img class="invert" src="leftarrow.svg" alt="">
+                    <img class="invert" src="rightarrow.svg" alt="">
+                </div>
+                <div class="buttons flex">
+                    <button class="signupbtn bg-grey">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="playlists rounded">
+                <h2>Spotify Playlists</h2>
+                <div class="card-container flex">
+                    <div class="card cardU cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="UniversalPlaylist.png" alt="">
+                        <div class="title">
+                            <p>Universal Playlist - The Singularity</p>
+                        </div>
+                        <div class="description">
+                            By Swansit Mishra
+                        </div>
+                    </div>
+                    <div class="card card1 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist1.jpeg" alt="">
+                        <div class="title">
+                            <p>Aashiqui 2</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Mithoon</a>,
+                            <a href="">Ankit Tiwari</a>,
+                            <a href="">Jeet Ganguly</a>
+                        </div>
+                    </div>
+                    <div class="card card2 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist2.jpeg" alt="">
+                        <div class="title">
+                            <p>Yeh Jawani Hai</p>
+                            <p>Deewani</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Pritam</a>
+                        </div>
+                    </div>
+                    <div class="card card3 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist3.jpeg" alt="">
+                        <div class="title">
+                            <p>Sanam - The Best is Back</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Sanam</a>,
+                            <a href="">Sanam Puri</a>
+                        </div>
+                    </div>
+                    <div class="card card4 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist4.jpeg" alt="">
+                        <div class="title">
+                            <p>Ultimate Love Songs-Arijit Singh</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Arijit Singh</a>
+                        </div>
+                    </div>
+                    <div class="card card5 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist5.jpeg" alt="">
+                        <div class="title">
+                            <p>Best of Romance: Atif Aslam & Pritam</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Atif Aslam</a>,
+                            <a href="">Pritam</a>
+                        </div>
+                    </div>
+                    <div class="card card6 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist6.jpeg" alt="">
+                        <div class="title">
+                            <p>Kabir Singh</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Sachet-Parampara</a>,
+                            <a href="">Vishal Mishra</a>,
+                            <a href="">Mithoon</a>
+                        </div>
+                    </div>
+                    <div class="card card7 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist7.jpg" alt="">
+                        <div class="title">
+                            <p>Best of Sonu Nigam</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Sonu Nigam</a>
+                        </div>
+                    </div>
+                    <div class="card card8 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist8.jpeg" alt="">
+                        <div class="title">
+                            <p>Best of Shreya Goshal</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Shreya Goshal</a>
+                        </div>
+                    </div>
+                    <div class="card card9 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist9.jpeg" alt="">
+                        <div class="title">
+                            <p>Evergreen Hits of Krishnakumar Kunnath</p>
+                        </div>
+                        <div class="description">
+                            <a href="">KK</a>
+                        </div>
+                    </div>
+                    <div class="card card10 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist10.jpeg" alt="">
+                        <div class="title">
+                            <p>Best of Shankar-Ehsaan-Loy</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Shankar-Ehsaan-Loy</a>
+                        </div>
+                    </div>
+                    <div class="card card11 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist11.jpeg" alt="">
+                        <div class="title">
+                            <p>Kishore Kumar Hits</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Kishore Kumar</a>
+                        </div>
+                    </div>
+                    <div class="card card12 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist12.jpeg" alt="">
+                        <div class="title">
+                            <p>Best of A.R. Rahman</p>
+                        </div>
+                        <div class="description">
+                            <a href="">A.R. Rahman</a>
+                        </div>
+                    </div>
+                    <div class="card card13 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist13.jpeg" alt="">
+                        <div class="title">
+                            <p>Best of Ajay-Atul</p>
+                        </div>
+                        <div class="description">
+                            <a href="">Ajay-Atul</a>
+                        </div>
+                    </div>
+                    <div class="card card14 cwidth rounded">
+                        <div class="play">
+                            <img src="playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="playlist14.jpeg" alt="">
+                        <div class="title">
+                            <p>All Time Best English Songs</p>
+                        </div>
+                        <div class="description">
+                            Enjoy the all time best English songs
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar rounded">
+                <div class="song">
+                    <div class="songinfo">
+                        <div class="songname"></div>
+                        <div class="songartist"></div>
+                    </div>
+                    <div class="songbuttons">
+                        <img id="replaybutton" src="previous.svg" alt="Replay">
+                        <img id="playbutton" src="play.svg" alt="Play">
+                        <img id="nextbutton" src="next.svg" alt="Next">
+                    </div>
+                    <div class="volume-container">
+                        <img src="volume1.svg" id="volume-icon" alt="Volume">
+                        <div class="volume-bar" id="volume-bar">
+                            <div class="volume-fill" id="volume-fill">
+                                <div class="volume-circle" id="volume-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="duration">
+                    <div class="current-duration time">00:00</div>
+                    <div class="seekbar">
+                        <div class="seekbar-fill"></div>
+                        <div class="circle seekbar-circle"></div>
+                    </div>
+                    <div class="entire-duration time">00:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
