@@ -49,7 +49,9 @@
     object-fit: contain;
 }
 
-.title{
+.title a{
+    text-decoration: none;
+    color: white;
     font-size: 17px;
 }
 
@@ -82,4 +84,16 @@
 
 .card > *{
     padding-top: 6px;
+}
+
+@media (max-width: 1200px) {
+    .cwidth {
+        width: 43vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .cwidth {
+        width: 90vw;
+    }
 }

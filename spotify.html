@@ -15,16 +15,19 @@
 <body>
     <div class="container flex bg-black">
         <div class="left">
+            <div class="close">
+                <img src="svgs/close.svg" alt="">
+            </div>
             <div class="home bg-grey rounded m-1 p-1">
-                <div class="logo"><img class="invert" src="logo.svg" alt=""></div>
+                <div class="logo"><img class="invert" src="svgs/logo.svg" alt=""></div>
                 <ul>
-                    <li class="flex"><img class="invert" src="home.svg" alt="home">Home</li>
-                    <li class="flex"><img class="invert" src="search.svg" alt="search">Search</li>
+                    <li class="flex"><img class="invert" src="svgs/home.svg" alt="home">Home</li>
+                    <li class="flex"><img class="invert" src="svgs/search.svg" alt="search">Search</li>
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1 p-1">
                 <div class="heading flex items-center">
-                    <img class="invert" src="playlist.svg" alt="">
+                    <img class="invert" src="svgs/playlist.svg" alt="">
                     <h3>
                         Your Library
                     </h3>
@@ -48,11 +51,11 @@
         <div class="right bg-grey rounded ">
             <div class="header flex">
                 <div class="nav">
-                    <div class="hamburger">
-                        <img src="hamburger.svg" alt="">
+                    <div class="hamburgerContainer">
+                        <img class="hamburger" src="svgs/hamburger.svg" alt="">
+                        <img class="invert" src="svgs/leftarrow.svg" alt="">
+                        <img class="invert" src="svgs/rightarrow.svg" alt="">
                     </div>
-                    <img class="invert" src="leftarrow.svg" alt="">
-                    <img class="invert" src="rightarrow.svg" alt="">
                 </div>
                 <div class="buttons flex">
                     <button class="signupbtn bg-grey">Sign up</button>
@@ -64,11 +67,11 @@
                 <div class="card-container flex">
                     <div class="card cardU cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="UniversalPlaylist.png" alt="">
+                        <img class="imgfit rounded" src="pimgs/UniversalPlaylist.png" alt="">
                         <div class="title">
-                            <p>Universal Playlist - The Singularity</p>
+                            <a href="http://192.168.0.101:3000/songs/universal%20playlist/">Universal Playlist - The Singularity</a>
                         </div>
                         <div class="description">
                             By Swansit Mishra
@@ -76,11 +79,11 @@
                     </div>
                     <div class="card card1 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist1.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist1.jpeg" alt="">
                         <div class="title">
-                            <p>Aashiqui 2</p>
+                            <a href="http://192.168.0.101:3000/songs/Aashiqui%202/">Aashiqui 2</a>
                         </div>
                         <div class="description">
                             <a href="">Mithoon</a>,
@@ -90,12 +93,11 @@
                     </div>
                     <div class="card card2 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist2.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist2.jpeg" alt="">
                         <div class="title">
-                            <p>Yeh Jawani Hai</p>
-                            <p>Deewani</p>
+                            <a href="http://192.168.0.101:3000/songs/Yeh%20Jawani%20Hai%20Deewani/">Yeh Jawani Hai Deewani</a>
                         </div>
                         <div class="description">
                             <a href="">Pritam</a>
@@ -103,11 +105,11 @@
                     </div>
                     <div class="card card3 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist3.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist3.jpeg" alt="">
                         <div class="title">
-                            <p>Sanam - The Best is Back</p>
+                            <a href="http://192.168.0.101:3000/songs/sanam/">Sanam - The Best is Back</a>
                         </div>
                         <div class="description">
                             <a href="">Sanam</a>,
@@ -116,11 +118,11 @@
                     </div>
                     <div class="card card4 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist4.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist4.jpeg" alt="">
                         <div class="title">
-                            <p>Ultimate Love Songs-Arijit Singh</p>
+                            <a href="http://192.168.0.101:3000/songs/arijit%20singh/">Voice of Emotions ft. Arijit Singh</a>
                         </div>
                         <div class="description">
                             <a href="">Arijit Singh</a>
@@ -128,24 +130,23 @@
                     </div>
                     <div class="card card5 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist5.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist5.jpeg" alt="">
                         <div class="title">
-                            <p>Best of Romance: Atif Aslam & Pritam</p>
+                            <a href="http://192.168.0.101:3000/songs/atif%20aslam/">Best of Romance ft. Atif Aslam</a>
                         </div>
                         <div class="description">
-                            <a href="">Atif Aslam</a>,
-                            <a href="">Pritam</a>
+                            <a href="">Atif Aslam</a>
                         </div>
                     </div>
                     <div class="card card6 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist6.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist6.jpeg" alt="">
                         <div class="title">
-                            <p>Kabir Singh</p>
+                            <a href="http://192.168.0.101:3000/songs/kabir%20singh/">Kabir Singh</a>
                         </div>
                         <div class="description">
                             <a href="">Sachet-Parampara</a>,
@@ -155,11 +156,11 @@
                     </div>
                     <div class="card card7 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist7.jpg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist7.jpg" alt="">
                         <div class="title">
-                            <p>Best of Sonu Nigam</p>
+                            <a href="http://192.168.0.101:3000/songs/sonu%20nigam/">Best of Sonu Nigam</a>
                         </div>
                         <div class="description">
                             <a href="">Sonu Nigam</a>
@@ -167,11 +168,11 @@
                     </div>
                     <div class="card card8 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist8.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist8.jpeg" alt="">
                         <div class="title">
-                            <p>Best of Shreya Goshal</p>
+                            <a href="http://192.168.0.101:3000/songs/shreya%20ghoshal/">Best of Shreya Goshal</a>
                         </div>
                         <div class="description">
                             <a href="">Shreya Goshal</a>
@@ -179,11 +180,11 @@
                     </div>
                     <div class="card card9 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist9.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist9.jpeg" alt="">
                         <div class="title">
-                            <p>Evergreen Hits of Krishnakumar Kunnath</p>
+                            <a href="http://192.168.0.101:3000/songs/kk/">Evergreen Hits of Krishnakumar Kunnath</a>
                         </div>
                         <div class="description">
                             <a href="">KK</a>
@@ -191,11 +192,11 @@
                     </div>
                     <div class="card card10 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist10.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist10.jpeg" alt="">
                         <div class="title">
-                            <p>Best of Shankar-Ehsaan-Loy</p>
+                            <a href="http://192.168.0.101:3000/songs/shankar-ehsaan-loy/">Best of Shankar-Ehsaan-Loy</a>
                         </div>
                         <div class="description">
                             <a href="">Shankar-Ehsaan-Loy</a>
@@ -203,11 +204,11 @@
                     </div>
                     <div class="card card11 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist11.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist11.jpeg" alt="">
                         <div class="title">
-                            <p>Kishore Kumar Hits</p>
+                            <a href="http://192.168.0.101:3000/songs/kishore%20kumar/">Kishore Kumar Hits</a>
                         </div>
                         <div class="description">
                             <a href="">Kishore Kumar</a>
@@ -215,11 +216,11 @@
                     </div>
                     <div class="card card12 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist12.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist12.jpeg" alt="">
                         <div class="title">
-                            <p>Best of A.R. Rahman</p>
+                            <a href="http://192.168.0.101:3000/songs/A.R.%20Rahman/">Best of A.R. Rahman</a>
                         </div>
                         <div class="description">
                             <a href="">A.R. Rahman</a>
@@ -227,11 +228,11 @@
                     </div>
                     <div class="card card13 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist13.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist13.jpeg" alt="">
                         <div class="title">
-                            <p>Best of Ajay-Atul</p>
+                            <a href="http://192.168.0.101:3000/songs/Ajay-atul/">Best of Ajay-Atul</a>
                         </div>
                         <div class="description">
                             <a href="">Ajay-Atul</a>
@@ -239,14 +240,28 @@
                     </div>
                     <div class="card card14 cwidth rounded">
                         <div class="play">
-                            <img src="playbutton.svg" alt="">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
                         </div>
-                        <img class="imgfit rounded" src="playlist14.jpeg" alt="">
+                        <img class="imgfit rounded" src="pimgs/playlist14.jpeg" alt="">
                         <div class="title">
-                            <p>All Time Best English Songs</p>
+                            <a href="http://192.168.0.101:3000/songs/vishal-shekhar/">Best of Vishal-Shekhar</a>
                         </div>
                         <div class="description">
-                            Enjoy the all time best English songs
+                            <a href="">Vishal-Shekhar</a>,
+                            <a href="">Vishal Dadlani</a>,
+                            <a href="">Shekhar Ravjivani</a>
+                        </div>
+                    </div>
+                    <div class="card card15 cwidth rounded">
+                        <div class="play">
+                            <img class="play-button" src="svgs/playbutton.svg" alt="">
+                        </div>
+                        <img class="imgfit rounded" src="pimgs/playlist15.jpeg" alt="">
+                        <div class="title">
+                            <a href="http://192.168.0.101:3000/songs/pritam/">Best of Pritam</a>
+                        </div>
+                        <div class="description">
+                            <a href="">Pritam</a>
                         </div>
                     </div>
                 </div>
@@ -258,17 +273,13 @@
                         <div class="songartist"></div>
                     </div>
                     <div class="songbuttons">
-                        <img id="replaybutton" src="previous.svg" alt="Replay">
-                        <img id="playbutton" src="play.svg" alt="Play">
-                        <img id="nextbutton" src="next.svg" alt="Next">
+                        <img id="replaybutton" src="svgs/previous.svg" alt="Replay">
+                        <img id="playbutton" src="svgs/play.svg" alt="Play">
+                        <img id="nextbutton" src="svgs/next.svg" alt="Next">
                     </div>
                     <div class="volume-container">
-                        <img src="volume1.svg" id="volume-icon" alt="Volume">
-                        <div class="volume-bar" id="volume-bar">
-                            <div class="volume-fill" id="volume-fill">
-                                <div class="volume-circle" id="volume-circle"></div>
-                            </div>
-                        </div>
+                        <img src="svgs/volume1.svg" id="volume-icon" alt="Volume">
+                        <input type="range" class="slider" min="0" max="100" value="100">
                     </div>
 
 
